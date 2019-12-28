@@ -1,7 +1,7 @@
 {
   "name": "better-burying-point",
   "version": "1.0.0",
-  "description": "最好的埋点解决方案，埋点业务与业务代码分离，支持框架Vue、React、Angular，小程序、原生js使用",
+  "description": "最好的埋点解决方案，埋点业务与业务代码分离，支持框架Vue、React、Angular、小程序、原生js等项目使用",
   "main": "lib/better-burying-point.common.js",
   "module": "lib/better-burying-point.esm.js",
   "unpkg": "lib/better-burying-point.js",
@@ -11,13 +11,21 @@
     "build": "node build/rollup.build.config.js",
     "dev": "rollup -wm -c build/rollup.dev.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/payhuxing/better-burying-point.git"
+  },
   "files": [
     "lib"
   ],
   "keywords": [
+    "bury",
     "burying",
     "point",
-    "burying-point"
+    "burying-point",
+    "data",
+    "information",
+    "record"
   ],
   "author": "huxing",
   "license": "MIT",

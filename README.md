@@ -1,22 +1,30 @@
-### Introduction
+## 项目地址
+[github地址](https://github.com/payhuxing/better-burying-point)
+
+## Introduction
+
 1、埋点业务与主业务进行解耦（代码分离），依赖装饰器实现
 
-2、埋点after方法，在主程序执行完毕后，在执行@after装饰的方法
+2、支持框架Vue、React、Angular、小程序、原生js等项目使用
+
+3、@after在主程序执行完毕后，再执行@after所装饰的函数
+
+4、主要为埋点服务，更可应用到其他业务场景中
 
 ## Installation
 ```shell
 # for Vue Angular React
 
-npm i better-burying-point -S
+npm install vue-template-compiler
+
+```
+
+```js
+import { setModule, setSeparator, before, after } from 'better-burying-point';
 ```
 
 
 ## Usage
-
-##### 使用：
-```js
-import { setModule, setSeparator, before, after } from 'better-burying-point';
-```
 
 ##### 用法一：
 ```js
