@@ -1,6 +1,6 @@
 {
   "name": "better-burying-point",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "最好的埋点解决方案，埋点业务与业务代码分离，支持框架Vue、React、Angular、小程序、原生js等项目使用",
   "main": "lib/better-burying-point.common.js",
   "module": "lib/better-burying-point.esm.js",
