@@ -15,7 +15,7 @@
 ```shell
 # for Vue Angular React
 
-npm install vue-template-compiler
+npm install better-burying-point --save-dev
 
 ```
 
